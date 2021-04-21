@@ -1,8 +1,8 @@
 //API KEY  https://developers.google.com/custom-search/v1/using_rest
 //context key- 
 
-export const API_KEY ='AIzaSyDgJ_oIyJzLZ-aPtVd9EpVlXwCAEsXvltE'
-export const CONTEXT_KEY='1fb7a0f318f2917b1'
+export const API_KEY ='AIzaSyBDciQvM2c77oTayWXhd4SV8b6RK2_cgi0'
+export const CONTEXT_KEY='a33438b1bd5e78f9a'
 
 
 
