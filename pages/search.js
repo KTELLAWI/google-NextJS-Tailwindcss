@@ -28,7 +28,7 @@ export async function getServerSideProps(context){
     const startIndex =  Number(context.query.start )|| "0";
      const useDummyData =false;
     const data= useDummyData ? response :
-    await fetch (`https://www.googleapis.com/customsearch/v1?key=AIzaSyCFdUJXp0Cs14sdADlnxmhEamYFG89aLAg&cx=1fb7a0f318f2917b1&q=${context.query.term}&start=${startIndex}`)
+    await fetch (`https://www.googleapis.com/customsearch/v1?key=${API_KEY}&cx=${CONTEXT_KEY}=${context.query.term}&start=${startIndex}`)
     .then((response) => response.json())
 
     return{
